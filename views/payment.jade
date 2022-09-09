@@ -1,0 +1,51 @@
+extends layout
+
+block content
+    section
+        .container
+            .row
+                h2.title.text-center
+                    =title
+                //title here. no duplicate
+                //if navList
+                .col-sm-3
+                    // nav-bar
+                    .left-sidebar
+                        #accordian.panel-group.category-products
+                                .panel.panel-default
+                                    .panel-heading
+                                        h4.panel-title
+                                            a(href='shipment') Shipment
+                                .panel.panel-default
+                                    .panel-heading
+                                        h4.panel-title
+                                            a(href='returns') Return Policy
+                                .panel.panel-default
+                                    .panel-heading
+                                        h4.panel-title
+                                            a(href='payment') Payment
+                                .panel.panel-default
+                                    .panel-heading
+                                        h4.panel-title
+                                            a(href='voucher') Voucher
+                    ///nav-bar
+
+                .col-sm-9
+                    .blog-post-area
+                        .single-blog-post
+                            //h2= title
+                            h3 Payment
+
+                            //a(href='#')
+                                img(src='#', alt='Image')
+                            p Freight transport is the physical process of transporting commodities and merchandise goods and cargo. The term shipping originally referred to transport by sea but in American English, it has been extended to refer to transport by land or air as well..
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br

@@ -1,0 +1,54 @@
+extends ../layout
+
+block content
+    section
+        .container
+            .row
+                //title here. no duplicate
+                //if navList
+                .col-sm-3
+                    // nav-bar
+                    .left-sidebar
+                        #accordian.panel-group.category-products
+                            .panel.panel-default
+                                .panel-heading
+                                    h4.panel-title
+                                        a(href='/admin/cat') Categories
+                            .panel.panel-default
+                                .panel-heading
+                                    h4.panel-title
+                                        a(href='/admin/products') Products
+                            .panel.panel-default
+                                .panel-heading
+                                    h4.panel-title
+                                        a(href='/admin/orders') Orders
+                            .panel.panel-default
+                                .panel-heading
+                                    h4.panel-title
+                                        a(href='/admin/customers') Users
+                            .panel.panel-default
+                                .panel-heading
+                                    h4.panel-title
+                                        a(href='/admin/reports') Reports
+                    ///nav-bar
+
+                .col-sm-9
+                    .blog-post-area
+                        .single-blog-post
+                    block details
+                            //h2= title
+                            h3 Control Panel
+
+                            //a(href='#')
+                                img(src='#', alt='Image')
+                            p Enables a user to change various computer hardware and software features.
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br

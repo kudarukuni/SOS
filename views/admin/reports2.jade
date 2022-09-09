@@ -1,0 +1,12 @@
+extends admin
+
+block details
+  .block-content.collapse.in
+    .span12
+      .span3
+        each reguser in regusers
+          .chart(data-percent=regusers.length)
+          .chart-bottom-heading
+              strong Registered Users
+      
+      

@@ -1,0 +1,48 @@
+extends layout
+
+block content
+    section
+        .container
+            .row
+                h2.title.text-center
+                    =title
+                .col-sm-3
+                    // nav-bar
+                    .left-sidebar
+                        #accordian.panel-group.category-products
+                            .panel.panel-default
+                                .panel-heading
+                                    h4.panel-title
+                                        a(href='press/careers') Careers
+                            .panel.panel-default
+                                .panel-heading
+                                    h4.panel-title
+                                        a(href='/press/partners') Partners
+                            .panel.panel-default
+                                .panel-heading
+                                    h4.panel-title
+                                        a(href='/press/privacy') Privacy Terms
+                            .panel.panel-default
+                                .panel-heading
+                                    h4.panel-title
+                                         a(href='/press/about') About Us
+
+                .col-sm-9
+                    .blog-post-area
+                        .single-blog-post
+                            //h2= title
+                            h3 Press
+
+                            //a(href='#')
+                                img(src='#', alt='Image')
+                            p Breaking news, opinion and analysis from Christchurch, Canterbury, the West Coast and throughout the South Island.
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br

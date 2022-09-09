@@ -1,0 +1,51 @@
+extends layout
+
+block content
+    section
+        .container
+            .row
+                h2.title.text-center
+                    =title
+                //title here. no duplicate
+                //if navList
+                .col-sm-3
+                    // nav-bar
+                    .left-sidebar
+                        #accordian.panel-group.category-products
+                                .panel.panel-default
+                                    .panel-heading
+                                        h4.panel-title
+                                            a(href='services/shipment') Shipment
+                                .panel.panel-default
+                                    .panel-heading
+                                        h4.panel-title
+                                            a(href='services/returns') Return Policy
+                                .panel.panel-default
+                                    .panel-heading
+                                        h4.panel-title
+                                            a(href='services/payment') Payment
+                                .panel.panel-default
+                                    .panel-heading
+                                        h4.panel-title
+                                            a(href='services/voucher') Voucher
+                    ///nav-bar
+
+                .col-sm-9
+                    .blog-post-area
+                        .single-blog-post
+                            //h2= title
+                            h3 Services
+
+                            //a(href='#')
+                                img(src='#', alt='Image')
+                            p A service is something that the public needs, such as transport, communications facilities, hospitals, or energy supplies, which is provided in a planned.
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br

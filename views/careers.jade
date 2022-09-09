@@ -1,0 +1,51 @@
+extends layout
+
+block content
+    section
+        .container
+            .row
+                h2.title.text-center
+                    =title
+                //title here. no duplicate
+                //if navList
+                .col-sm-3
+                    // nav-bar
+                    .left-sidebar
+                        #accordian.panel-group.category-products
+                                .panel.panel-default
+                                    .panel-heading
+                                        h4.panel-title
+                                            a(href='careers') Careers
+                                .panel.panel-default
+                                    .panel-heading
+                                        h4.panel-title
+                                            a(href='partners') Patners
+                                .panel.panel-default
+                                    .panel-heading
+                                        h4.panel-title
+                                            a(href='privacy') Privacy Terms
+                                .panel.panel-default
+                                    .panel-heading
+                                        h4.panel-title
+                                            a(href='about') About
+                    ///nav-bar
+
+                .col-sm-9
+                    .blog-post-area
+                        .single-blog-post
+                            //h2= title
+                            h3 Careers
+
+                            //a(href='#')
+                                img(src='#', alt='Image')
+                            p an occupation undertaken for a significant period of a person's life and with opportunities for progress.
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
